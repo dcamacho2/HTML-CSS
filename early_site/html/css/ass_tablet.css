@@ -1,0 +1,104 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: Helvetica-Neue;
+	src: url('helvetica-neue1.ttf');
+	src: local(Helvetica-Neue) url('HelveticaNeueLTPro-Th.otf') format("truetype");
+}
+
+
+body {
+	background-color: white;
+	font-family: Helvetica-Neue;
+}
+
+header {
+	color: white;
+	text-align: center;
+	background-color: #27ae60;
+}
+
+footer {
+	color: white;
+	text-align: center;
+	background-color: #27ae60;
+}
+
+footer p {
+	padding-top: 50px;
+	width: 100%;
+	font-size: 40px;
+}
+
+header h1 {
+	padding-top: 50px;
+	width: 100%;
+	font-size: 59px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+
+}
+
+a:hover {
+	color: #34495e;
+}
+
+div.box {
+	margin-left: left;
+	width:270px;
+	height: 270px;
+	padding:10px;
+	border:5px solid #2ecc71;	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 150px;
+	font-size: 50px;
+	background-color: #2ecc71;
+	color: white;
+}
+
+div.box2 {
+	margin-left: left;
+	width:270px;
+	height: 270px;
+	padding:10px;
+	border:5px solid #2ecc71;	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	font-size: 50px;
+	background-color: #2ecc71;
+	color: white;
+}
+
+div.box3 {
+	margin-left: left;
+	width:270px;
+	height: 270px;
+	padding:10px;
+	border:5px solid #2ecc71;	
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 200px;
+	font-size: 50px;
+	background-color: #2ecc71;
+	color: white;
+}
+p.content{
+	display: none;
+}
+
+
+
+

@@ -1,0 +1,84 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: Helvetica-Neue;
+	src: url('helvetica-neue1.ttf');
+	src: local(Helvetica-Neue) url('HelveticaNeueLTPro-Th.otf') format("truetype");
+}
+
+
+body {
+	background-color: white;
+	font-family: Helvetica-Neue;
+}
+
+header {
+	color: white;
+	text-align: center;
+	background-color: #2980b9;
+}
+
+header h1 {
+	width: 700px;
+	background-color: #3498db;
+	font-size: 59px;
+	padding-top: 50px;
+	float: left;
+}
+
+header h2 {
+	padding-top: 50px;
+	width: 100%;
+	font-size: 59px;
+}
+
+
+a {
+	text-decoration: none;
+	color: #2980b9;
+
+}
+
+a:hover {
+	color: #34495e;
+}
+
+
+div.container{
+	width: 100%;
+	margin: 0;
+	line-height: 150%;
+}
+ 
+div.col {
+	float: left;
+	margin-top: 300px;
+	padding-top:50px;
+	font-size: 50px;
+	margin-left: 50px;
+
+}
+
+div.content{
+	margin-right: 100px;
+	margin-left: 500px;
+	padding: 10em;
+	line-height: 40px;
+	min-width: 700px; 
+	color: #3498db;
+}
+
+div.content h2 {
+	text-align: center;
+}
+
+table {
+	width: 500px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+

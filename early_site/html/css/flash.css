@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: Helvetica-Neue;
+	src: url('helvetica-neue1.ttf');
+	src: local(Helvetica-Neue) url('HelveticaNeueLTPro-Th.otf') format("truetype");
+}
+
+p.title {
+	font-size: 50px;
+	font-family: Helvetica-Neue;
+	color: #c0392b;
+	padding-top: 30px;
+	padding-left: 20px;
+}
+
+a {
+	color: #c0392b;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #f39c12;
+}

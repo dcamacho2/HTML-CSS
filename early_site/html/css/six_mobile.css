@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: Helvetica-Neue;
+	src: url('helvetica-neue1.ttf');
+	src: local(Helvetica-Neue) url('HelveticaNeueLTPro-Th.otf') format("truetype");
+}
+
+
+h1 {
+	background-color: #f39c12;
+	color: white;
+	font-family: Helvetica-Neue;
+	font-size: 38px;
+	padding-top: 50px;
+	padding-left: 30px;
+	font-weight: normal;
+	text-align: center;
+}
+
+h3 {
+	color: #f39c12;
+	font-family: Helvetica-Neue;
+	font-size: 29px;
+	padding-top: 50px;
+	font-weight: lighter;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+a {
+	color: #f1c40f;
+	text-decoration: none;
+}
+
+div.container {
+	display: none;
+}
+
+div.container2 {
+	display: none;
+}
+
+div.container3 {
+	width: 480px;
+  	margin-left: auto;
+  	margin-right: auto;
+  	padding-bottom: 50px;
+}
+
+footer {
+	font-family: Helvetica-Neue;
+	text-align: center;
+	background-color: #f39c12;
+}
+
+footer p {
+	color: white;
+	padding-top: 50px;
+	width: 100%;
+	font-size: 25px;
+}
+
+footer a{
+	color: white;
+	text-decoration: none;
+}
+

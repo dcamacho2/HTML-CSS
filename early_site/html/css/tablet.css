@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+@font-face {
+	font-family: Helvetica-Neue;
+	src: url('helvetica-neue1.ttf');
+	src: local(Helvetica-Neue) url('HelveticaNeueLTPro-Th.otf') format("truetype");
+}
+
+
+body {
+	background-color: white;
+	font-family: Helvetica-Neue;
+}
+
+header {
+	color: white;
+	text-align: center;
+}
+
+header h1 {
+	width: 700px;
+	background-color: #2ecc71;
+	font-size: 59px;
+	padding-top: 50px;
+	width: 100%;
+
+}
+
+header h2 {
+	padding-top: 50px;
+	width: 100%;
+	font-size: 59px;
+	background-color: #27ae60;
+
+}
+
+p.boxes {
+
+	font-size: 50px;
+	text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+	color: #27ae60;
+
+}
+
+a:hover {
+	color: #34495e;
+}
+
+div.content{
+	display: none;
+}
+
+div.col {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 15%;
+	margin-left: auto;
+	margin-right: auto;
+	width:300px;
+	height: 650px;
+	padding:10px;
+	border:5px solid #2ecc71;
+}
+
+
+
