@@ -3,7 +3,7 @@ HTML-CSS
 
 sites made with html and css and js!
 
-##1) Airbnb site Redisign
+######1) Airbnb site Redisign
 This was a simple site made a while ago to learn the basics of html and css. I also went an extra step and used bootstrap for a more complex formating (convinced by coworkers to use, now I love it). 
 
 ##2) First Website (very begginer level!)
