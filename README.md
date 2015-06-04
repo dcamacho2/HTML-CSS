@@ -11,3 +11,6 @@ This was the second website I built. I used the knowledge acquired from my first
 
 ##Intro to JS and Jquery
 After seeing the cool things that could be done with JS I decided to confront the language, and built this page as a "test"/intro page. It builds atop previous knowledge on html and css as well, but its very simple. Just a couple of functions to create a menu page.
+
+##Mini news reader
+Created a small news reader that has jquery event handlers to react when an area is clicked at which point something specific is done. Also added elements of menu learned earlier. The project is stylized using bootstrap and css
