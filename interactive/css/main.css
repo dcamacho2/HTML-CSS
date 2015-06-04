@@ -60,6 +60,7 @@ body {
 }
 
 .icon-menu {
+  width: 200px;
   color: #fff;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
