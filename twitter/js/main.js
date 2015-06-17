@@ -1,4 +1,21 @@
 $(document).ready(function() {
+	var container = document.getElementById('container');
+	function browserSize() {
+    var browserWidth = window.innerWidth;
+    var browserHeight = window.innerHeight;
+
+    console.log('---------------------------');
+    console.log('height ' + browserHeight);
+    console.log('width ' + browserWidth);
+    console.log('---------------------------');
+	}
+
+	// Write info when page loads
+	window.onload = browserSize;
+
+	// Write info when browser is resized
+	window.onresize = browserSize;
+
 	var originalChars = $('.counter').text();
 	function getRandom() {
 		return Math.floor(Math.random()*10)+1;
@@ -50,6 +67,15 @@ $(document).ready(function() {
 		$('.counter').text(originalChars);
 		$('.btnPost').addClass('disabled');
 	}
+
+	$('.butt').click(function() {
+		var clicked = $(this).parent();
+		if(!clicked.hasClass('active')) {
+			console.log(clicked);
+			$('.demo').removeClass('active');
+			clicked.addClass('active');
+		}
+	})
 
 	$('.btnPost').addClass('disabled');
 

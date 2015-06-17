@@ -6,12 +6,20 @@ body {
   height:100%;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .center {
   margin-left: auto;
   margin-right: auto;
 }
 
-@media (min-width: 768px){
+.active {
+  border-bottom: 5px solid #80a8cc;
+}
+
+@media (min-width: 990px){
   body{
     overflow: hidden;
   }
@@ -20,8 +28,8 @@ body {
     top: 60px;
     bottom: 0;
     left: 0;
-    width: 25%;
-    overflow: hidden; 
+    width: 23%;
+    overflow: hidden;
   }
 
   #middle {
@@ -30,18 +38,18 @@ body {
     bottom: 0;
     left: 25%;
     overflow-y: scroll;
-    width: 58%;
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 50%;
+/*    padding-left: 50px;
+    padding-right: 50px;*/
   }
-  
+
   #right {
     position: absolute;
     top: 60px;
     bottom: 0;
     right: 0;
     overflow: hidden;
-    width: 17%;
+    width: 23%;
   }
 }
 
@@ -93,11 +101,11 @@ body {
 }
 
 .navCorrect {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
-.navi a {
+.navLinks {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
@@ -108,8 +116,37 @@ body {
   text-transform: uppercase;
 }
 
-.navi li {
+.navLi {
   display: inline;
+}
+
+.statusBar {
+  background-color: #fffbf5;
+  width: 100%;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+
+.statusBar a{
+  color: #c6c1b0;
+  font-weight: lighter;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+  padding: 0;
+}
+
+.demo {
+  display: inline-block;
+  margin-top: 20px
+}
+
+.demo p {
+  color: #605e58;
+  text-align: center;
+  font-weight: bold;
+  font-size: 15px;
 }
 
 .social {
@@ -117,6 +154,7 @@ body {
 }
 
 .button-group {
+  margin-top: 40px;
   margin-bottom: 20px;
 }
 
@@ -181,24 +219,24 @@ body {
 }
 
 .userPic {
-  width: 200px;
+  width: 150px;
 }
 
 .userPic img{
-  height: 200px;
+  height: 150px;
   width: auto;
-  margin-top: 25%
+  margin-top: 55%
 }
 
 .userInfo {
   text-align: center;
   color: #fff;
-  margin-top: 35px;
-  width: 280px;
+  margin-top: 30px;
+  width: 85%;
 }
 
 .userInfo h4 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .userInfo p {
@@ -207,12 +245,37 @@ body {
 }
 
 .btnFollow {
-  padding: 15px 55px;
-  border-radius: 13px;
+  background-color: #6c94b8;
+  border-color: #6c94b8;
+  padding: 10px 45px;
+  border-radius: 130px;
 }
 
 .userPanel2 {
   background-color: #fffbf5;
   height: 100%;
   padding-right: 0;
+}
+
+@media (max-width: 768px){
+  .demo {
+    width: 24%
+  }
+}
+
+@media (max-width: 520px){
+  .statusBar a{
+    font-size: 9px;
+    font-weight: normal;
+  }
+  .demo {
+    padding-left: 9px;
+    padding-right: 9px;
+  }
+  .demo p {
+    font-size: 13px;
+  }
+  .small{
+    padding: 0;
+  }
 }
