@@ -12,4 +12,4 @@ This was the second website I built. I used the knowledge acquired from my first
 
 ##Intro to JS and Jquery
 After seeing the cool things that could be done with JS I decided to confront the language, and built this page as a "test"/intro page. It builds atop previous knowledge on html and css as well, but its very simple. Just a couple of functions to create a menu page.
-![alt Intro to JS and Jquery](https://raw.githubusercontent.com/dcamacho2/Static/master/interactive.png?token=AG-rMxnhAbnd2hLZva75dCiAK2iKGmVIks5VibkvwA%3D%3D)
+![alt Intro to JS and Jquery](/static/interactive.png)
